@@ -4,16 +4,21 @@ body {
     overflow: auto;
 }
 
+.cabecalho {
+  padding: 20px;
+}
+
 .cabecalho a{
-    padding: 10px; 
+    padding: 10px;
     color: #303030;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .col-md-4 {
     transition: .6s ease;
     cursor: pointer;
-    
+
 }
 
 .col-md-4:hover{
