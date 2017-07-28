@@ -22,7 +22,8 @@ body {
 }
 
 .col-md-4:hover{
-    background: rgba(255,255,255,255);
+    /*background: rgba(255,255,255,255);*/
+    background-color: #000;
     -webkit-animation-name: tada;
     animation-name: tada;
 }
@@ -31,11 +32,45 @@ body {
     padding: 20px;
 }
 
-.cpp {
-    color: #513CED;
+.col-md-4:hover p{
+  color: #fff;
 }
 
+.col-md-4 h1 {
+  color: #000;
+  padding-top: 20px;
+}
 
+.col-md-4:hover .cpp {
+    color: #4B84F6;
+    transition: .4s ease;
+}
+
+.col-md-4:hover .java {
+    color: #4B84F6;
+    transition: .4s ease;
+}
+
+.col-md-4:hover .php {
+    color: #4B84F6;
+    transition: .4s ease;
+}
+
+.col-md-4:hover .go {
+    color: #4B84F6;
+    transition: .4s ease;
+}
+
+.col-md-4:hover .py {
+    color: #4B84F6;
+    transition: .4s ease;
+}
+
+.col-md-4:hover .js {
+    color: #4B84F6;
+    transition: .4s ease;
+}
+/*
 .java {
     color: #F87525;
 }
@@ -54,7 +89,7 @@ body {
 
 .js{
     color: #25F87B;
-}
+}*/
 
 /* Animate.css Author Original: https://daneden.github.io/animate.css/  */
 
