@@ -40,37 +40,10 @@ body {
   color: #000;
   padding-top: 20px;
 }
-
-.col-md-4:hover .cpp {
-    color: #4B84F6;
-    transition: .4s ease;
+.col-md-4:hover h1{
+  color: silver;
+  transition: .6s ease;
 }
-
-.col-md-4:hover .java {
-    color: #4B84F6;
-    transition: .4s ease;
-}
-
-.col-md-4:hover .php {
-    color: #4B84F6;
-    transition: .4s ease;
-}
-
-.col-md-4:hover .go {
-    color: #4B84F6;
-    transition: .4s ease;
-}
-
-.col-md-4:hover .py {
-    color: #4B84F6;
-    transition: .4s ease;
-}
-
-.col-md-4:hover .js {
-    color: #4B84F6;
-    transition: .4s ease;
-}
-
 /* Animate.css Author Original: https://daneden.github.io/animate.css/  */
 
 .animated {
