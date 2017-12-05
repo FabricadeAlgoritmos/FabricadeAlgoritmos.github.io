@@ -5,25 +5,27 @@ body {
 }
 
 .cabecalho {
+  background: #000;
   padding: 20px;
 }
 
 .cabecalho a{
     padding: 10px;
-    color: #303030;
+    color: #fff;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .col-md-4 {
     transition: .6s ease;
-    cursor: pointer;
-
 }
 
 .col-md-4:hover{
     /*background: rgba(255,255,255,255);*/
     background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
     -webkit-animation-name: tada;
     animation-name: tada;
 }
@@ -36,12 +38,23 @@ body {
   color: #fff;
 }
 
+.col-md-4 p a{
+    color: silver;
+}
+
+
+.col-md-4:hover p a{
+    background: #606060;
+    padding: 5px;
+    color: #f5f5f5;
+}
+
 .col-md-4 h1 {
   color: #000;
   padding-top: 20px;
 }
 .col-md-4:hover h1{
-  color: silver;
+  color: #fff;
   transition: .6s ease;
 }
 /* Animate.css Author Original: https://daneden.github.io/animate.css/  */
